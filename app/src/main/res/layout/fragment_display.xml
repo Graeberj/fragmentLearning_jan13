@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/wellDoneTv"
+
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/wellDoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/well_done_signup_complete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backBtn"
+        app:layout_constraintBottom_toTopOf="@id/nameTv"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wellDoneTv"
+        app:layout_constraintBottom_toTopOf="@id/surnameTv"
+        app:helperText="@string/name"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/surnameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTv"
+        app:layout_constraintBottom_toTopOf="@id/emailTv"
+        app:helperText="@string/surname"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/emailTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/surnameTv"
+        app:layout_constraintBottom_toTopOf="@id/passwordTv"
+        app:helperText="@string/email"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/passwordTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailTv"
+        app:helperText="@string/password"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

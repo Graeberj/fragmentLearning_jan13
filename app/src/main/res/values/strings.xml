@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">fragmentLearning_jan13</string>
+    <string name="welcome_to_lonely_mountain_app">Welcome to lonely Mountain App</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="first_name">First Name</string>
+    <string name="surname">surname</string>
+    <string name="next">Next</string>
+    <string name="and_your_email">And, your email?</string>
+    <string name="email">email</string>
+    <string name="create_a_password">create a password</string>
+    <string name="back">Back</string>
+    <string name="password">password</string>
+    <string name="well_done_signup_complete">Well done! signup complete!</string>
+    <string name="name">Name</string>
+    <string name="create_account">create account</string>
+
+</resources>
